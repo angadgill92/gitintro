@@ -38,7 +38,7 @@ in the diagram the way we do?
 	parent node . We represent it in the diagram in that way because it is 
 	intuituive to follow the changes made.
 	
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing 
+What are the pros and cons of Git's automatic merging vs. always doing 
 merges
 manually?
 	Pros (merging manually): We can resolve merge conflicts.
