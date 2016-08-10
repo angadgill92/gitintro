@@ -25,6 +25,9 @@ organized? How would branches help?
 	that it works.
 
 How do the diagrams help you visualize the branch structure?
+	Using diagrams can help us figure out the choronological order as well as the
+	structure of the current development process of a project. It helps in managing
+	workflow and dependencies better.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
