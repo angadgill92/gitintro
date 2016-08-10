@@ -3,7 +3,8 @@ What happens when you initialize a repository? Why do you need to do it?
 	Initialising a repository adds it to the git. We need to initialise
 	a repo if we want git to track it.
 
-How is the staging area different from the working directory and the repository?
+How is the staging area different from the working directory and the 
+repository?
 What value do you think it offers?
 	Files in the staging area can be committed to the repo directly but
 	files in the working directory can not.
@@ -16,21 +17,27 @@ change?
 	that we're trying to fix) to the staging area so that the files are
 	logically coherent.
 
-What are some situations when branches would be helpful in keeping your history
+What are some situations when branches would be helpful in keeping your 
+history
 organized? How would branches help?
-	In cases where we want to make some new changes that we're not too sure about
-	(for example some experimental feature we're trying out but are not too
-	confident that the code would work) we can use branches to make a copy of the
-	existing code, work on it, and merge it with the main branch after testing
-	that it works.
+	In cases where we want to make some new changes that we're not too sure 
+	about(for example some experimental feature we're trying out but are not 
+	tooconfident that the code would work) we can use branches to make a copy
+	of the existing code, work on it, and merge it with the main branch 
+	after testing that it works.
 
 How do the diagrams help you visualize the branch structure?
-	Using diagrams can help us figure out the choronological order as well as the
-	structure of the current development process of a project. It helps in managing
-	workflow and dependencies better.
+	Using diagrams can help us figure out the choronological order as well 
+	as the structure of the current development process of a project. It 
+	helps in managing workflow and dependencies better.
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
-
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What is the result of merging two branches together? Why do we represent it 
+in the diagram the way we do?
+	Merging two branches creates a new commit node which encompasses all the 
+	changes made in the code after the braching was done from a common 
+	parent node . We represent it in the diagram in that way because it is 
+	intuituive to follow the changes made.
+	
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing 
+merges
 manually?
