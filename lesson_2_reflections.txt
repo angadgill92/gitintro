@@ -41,3 +41,6 @@ in the diagram the way we do?
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing 
 merges
 manually?
+	Pros (merging manually): We can resolve merge conflicts.
+	Cons: Merging too many brances would become cumbersome if most of them 
+	have merge conflicts. 
