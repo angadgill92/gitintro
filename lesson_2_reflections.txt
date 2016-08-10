@@ -2,9 +2,13 @@ What happens when you initialize a repository? Why do you need to do it?
 	
 	Initialising a repository adds it to the git. We need to initialise
 	a repo if we want git to track it.
-	
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+	Files in the staging area can be committed to the repo directly but
+	files in the working directory can not.
+	It acts as a metaphorical workbench where we keep the files we'd like 
+	to review or edit before committing.  
 
 How can you use the staging area to make sure you have one commit per logical
 change?
