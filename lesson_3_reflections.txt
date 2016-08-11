@@ -14,9 +14,9 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fork : Is used to copy and modify a repo of another user, because you don't have
+    Fork : Is used to copy and modify a repo of another user, because you don't  have
     permission to make changes to their repo. You can fork their repo and work on new
-    features yourself without worrying about meddling with someone else's work. Also,
+    features yourself without worrying about meddling with someone else's  work. Also,
     fork allows us to give credit to the person whose repo we copied.
 
     Clone : A clone is a copy of a remote repo that we own that we create on our 
@@ -25,14 +25,17 @@ use one instead of another?
 
     Branches : Branches are off-shoots of our repositories, that we create to work on 
     stuff that's still in it's developmental stage and not ready to be committed.They 
-    are like forks but for parts of the same repository. (In forking we copy the entire
-    repo, but while creating a branch we diverge from the master branch (or some other 
-    branch) and later merge the branches when we have a working piece of code.)
+    are like forks but for parts of the same repository. (In forking we copy the enti
+    -re repo, but while creating a branch we diverge from the master branch (or  some
+    other branch) and later merge the branches when we have a working piece of code.)
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Having a copy of the last known state saved locally can help  us use fast forward 
+    merges. These are normal merges except for the fact that we do not merge two sep-
+    -arate branches into a new commit, but just update the new remote changes on  the
+    last locally saved commit. (Just update the HEAD to the latest remote commit).
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
